@@ -4,5 +4,10 @@ int main(void) {
     printf("Temperatura: %d graus\n", temperatura);
     float fahrenheit = temperatura * 9.0 / 5.0 + 32.0;
     printf("Fahrenheit: %.1f graus\n", fahrenheit);
+    if (temperatura >= 20) {
+        printf("Temperatura alta\n");
+    } else {
+        printf("Temperatura baixa\n");
+    }
     return 0;
 }
